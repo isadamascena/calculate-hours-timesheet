@@ -7,11 +7,11 @@
     <body>
         <div id="root">
             <h1 class="header">{{ titleHeader }}</h1>
-            <div>
+            <div class="container">
                 <input v-model="firstEntry">
                 <input v-model="secondEntry">
                 <button @click="calculateHours">Calculate</button>
-                <div class="workedHours">{{ workedHours }}</div>
+                <div class="workedHours item">{{ workedHours }} Worked Hours</div>
             </div>
         </div>
         <script src="index.js"></script>
