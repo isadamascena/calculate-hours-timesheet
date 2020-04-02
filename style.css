@@ -10,7 +10,7 @@ body {
 
 .container {
     display: flex;
-    width: 30em;
+    width: 35em;
     height: 2em;
     justify-content: space-evenly;
 }
