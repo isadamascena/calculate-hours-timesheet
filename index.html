@@ -13,6 +13,14 @@
                 <button @click="calculateHours">Calculate</button>
                 <div class="workedHours item">{{ workedHours }} worked hours</div>
             </div>
+            <div>
+                <input
+                    type="checkbox"
+                    v-model="choosenTakeOffLunchHour"
+                    true-value="yes"
+                    false-value="no">
+                    take off - 1h lunch time
+            </div>
         </div>
         <script src="index.js"></script>
     </body>

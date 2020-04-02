@@ -6,7 +6,8 @@ var vue = new Vue({
         titleHeader: "Working hour calculator",
         firstEntry: "",
         secondEntry: "",
-        workedHours: 0
+        workedHours: 0,
+        choosenTakeOffLunchHour: "yes",
     },
     methods: {
         calculateHours: function (event) {
