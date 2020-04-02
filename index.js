@@ -3,7 +3,7 @@ const kTransformMilissecondsToHours = (1000 * 60 * 60);
 var vue = new Vue({
     el: "#root",
     data: {
-        titleHeader: "Timesheet",
+        titleHeader: "Working hour calculator",
         firstEntry: "",
         secondEntry: "",
         workedHours: 0
